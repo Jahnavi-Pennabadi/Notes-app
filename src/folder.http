@@ -1,0 +1,21 @@
+POST http://localhost:5000/folders
+Content-Type: application/json
+
+{
+    "name" : "folder6"
+}
+
+###
+GET http://localhost:5000/folders
+
+###
+PUT http://localhost:5000/folders/update/874b0926-7d73-40c7-aafd-76f53d31fa67
+Content-Type: application/json
+
+{
+    "name" : "jan"
+}
+
+###
+DELETE http://localhost:5000/folders/delete/874b0926-7d73-40c7-aafd-76f53d31fa67
+

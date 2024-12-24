@@ -1,0 +1,42 @@
+GET http://localhost:5000/SharedItem
+Content-Type: application/json
+
+###
+GET http://localhost:5000/SharedItem/4b0bc3e8-0bc7-4472-a733-cd597af4361f
+
+###
+
+POST http://localhost:5000/shareditems
+Content-Type: application/json
+
+{
+    "sharedToId": ["776c1170-c094-4996-acb2-074d3cc8c342"],
+    "sharedToName": ["Nagasritha"],
+    "ItemId": "42e82348-c68f-4116-a5b5-2e49e7f2f3a2",
+    "ItemType": "Note",
+    "sharedById": "b97c7234-dbc9-41b5-99af-301819092357",
+    "sharedByName": "Pennabadi Jahnavi",
+    "permission": "view"
+  }
+###
+PUT http://localhost:5000/SharedItem/4b0bc3e8-0bc7-4472-a733-cd597af4361f
+Content-Type: application/json
+
+{
+    "UserId" : "1c7b1fe0-a3f8-476f-9b50-077444e0182d",
+    "noteId" : "cbde9528-4735-4091-a0db-424d9057afbb",
+    "permission" : "edit"
+}
+###
+###
+PATCH http://localhost:5000/SharedItem/4b0bc3e8-0bc7-4472-a733-cd597af4361f
+Content-Type: application/json
+
+{
+    "UserId" : "1c7b1fe0-a3f8-476f-9b50-077444e0182d",
+    "noteId" : "cbde9528-4735-4091-a0db-424d9057afbb",
+    "permission" : "edit"
+}
+###
+DELETE http://localhost:5000/SharedItem/3e78f634-a2fe-4de9-829f-f06e63ddae0e
+

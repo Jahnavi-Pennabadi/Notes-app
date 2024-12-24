@@ -1,0 +1,32 @@
+GET http://localhost:5000/users
+###
+GET http://localhost:5000/users/823d1dfb-414a-4798-8137-b667141d9ecc
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "id" : "b97c7234-dbc9-41b5-99af-301819092357",
+    "name" : "Jahnavi",
+    "email" : "pennabadi.jahnavi@g7cr.com"
+}
+
+###
+PUT http://localhost:5000/users/c1c8e04f-1dac-4192-b4db-477e22d12d9a
+Content-Type: application/json
+
+{
+    "name" : "Tejaswini",
+    "email" : "botla.tejaswini@g7cr.com"
+}
+
+###
+PATCH http://localhost:5000/users/4868ccf0-8588-4a69-9498-72f503488cc8
+Content-Type: application/json
+
+{
+    "email" : "nagasritha.er@g7cr.com"
+}
+
+###
+DELETE http://localhost:5000/users/6399944b-4809-44be-b619-4c324e0efdfc

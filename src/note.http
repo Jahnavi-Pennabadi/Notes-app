@@ -1,0 +1,24 @@
+POST http://localhost:5000/notes
+Content-Type: application/json
+
+{
+    "title" : "note4",
+    "content" : "Wake up ",
+    "isFavorite" : false
+    
+}
+
+###
+
+GET http://localhost:5000/notes
+
+###
+PUT http://localhost:5000/notes/6c0c63c9-0344-4a65-937c-c88f95321aa2
+Content-Type: application/json
+
+{
+    "content" : "Wake up late"
+}
+
+###
+DELETE http://localhost:5000/notes/a79d3449-8b45-46be-81e0-b77b1ddbc66d
