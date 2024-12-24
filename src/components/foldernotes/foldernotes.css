@@ -1,0 +1,179 @@
+/* Container */
+.folders-notes-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+   }
+  
+  /* Title */
+  .folders-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  /* Input Container */
+  .folders-input-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .input-container{
+    border: none;
+    text-align: left;
+    box-shadow: 3px 6px 8px rgba(15, 15, 15, 0.5);    
+  }
+  
+  .folders-input {
+    font-size: 16px;
+    width: 88%;
+    border: none;
+  }
+  .folders-input::placeholder{
+    font-weight: 500 !important;
+    color: rgb(0, 0, 0) !important;
+  }
+  .folders-input2 {
+    font-size: 16px;
+    width: 88%;
+    border: none;
+  }
+  .folders-input2::placeholder{
+    color: rgb(110, 104, 104) !important;
+  }
+  .foldernotes-add-buttons {
+    background-color: #0EF280;
+    border-color:  #0EF280;
+    border: solid 2px   #0EF280;
+    color:black;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 45px;
+    font-weight: 500;
+    width: 92px;
+    text-align: center;
+    background-size: cover;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .add-button:hover {
+    background-color:  #0EF280;
+    border-color:  #0EF280;
+    box-shadow: 0 4px 8px rgba(235, 232, 230, 0.3);
+  }
+  
+  /* Notes List */
+  .folders-list {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  /* Card */
+  .folders-notes-card {
+    background-color: white;
+    border-radius: 8px;
+    height: 90px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+  }
+  .contents{
+    display: flex;
+    flex-direction: column;
+  }
+  .notes-card-folder {
+    background-color: white;
+    border-radius: 8px;
+    height: 90px;
+    text-align: left;
+    width: 95%;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin: auto;
+  }
+  
+  .folders-notes {
+    display: flex;
+    width: 840px;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .folders-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  .folders-card.favorite {
+    background-color: #fff4e6;
+    border: 1px solid  #0EF280;
+    position: relative;
+  }
+  
+  .folders-card.favorite::before {
+    content: "❤️ Favorite";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #0EF280;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .folders-empty-state {
+    text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    border: none;
+    flex-direction: column;
+  }
+   
+  .folders-input-card {
+    background-color:white;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

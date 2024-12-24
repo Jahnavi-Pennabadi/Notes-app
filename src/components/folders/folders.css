@@ -1,0 +1,89 @@
+/* Container */
+.folders-container {
+    max-width: 100%;
+    height: 100vh;
+    width: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+   }
+  
+
+  .folders-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  .folder-search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  
+  .folders-input-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .input-container{
+    border: none;
+    text-align: left;
+    box-shadow: 3px 6px 8px rgba(15, 15, 15, 0.5);    
+  }
+  
+  .folders-input {
+    font-size: 16px;
+    width: 88%;
+    border: none;
+  }
+  .folders-input::placeholder{
+    font-weight: 500 !important;
+    color: rgb(0, 0, 0) !important;
+  }
+  .folders-input2 {
+    font-size: 16px;
+    width: 88%;
+    border: none;
+  }
+  .folders-input2::placeholder{
+    color: rgb(110, 104, 104) !important;
+  }
+  /* Notes List */
+  .folders-list {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  /* Card */
+  .folders-card {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: 'center';
+    
+  }
+  
+  .folders-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .folders {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .folders-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  

@@ -1,0 +1,81 @@
+.main-home-container {
+    background-image: url("https://cdn.dribbble.com/userupload/4111131/file/original-df34c8066f3a56c237534ecc1e8772e7.jpeg?resize=1504x996");
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-heading {
+    color: white;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+
+.home-page-heading-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logout-buttons {
+    margin-right: 18px;
+    color: white;
+    background-color: rgb(231, 55, 55);
+    font-size: 16px;
+    border-radius: 7px;
+    text-align: center;
+    padding-bottom: 7px;
+    margin-top:15px ;
+    width: 90px;
+    animation: rotate-border 1s infinite; 
+    border: 1.5px solid rgb(240, 232, 232); 
+    cursor: pointer;
+}
+
+.logout-buttons:hover {
+    background-color: red;
+    color: white; 
+}
+
+@keyframes rotate-border {
+    0% {
+        transform: rotate-border(0deg); 
+        border-color: red; 
+    }
+    50% {
+        transform: rotate-border(180deg); 
+        border-color: white; 
+    }
+    100% {
+        transform: rotate-border(360deg); 
+        border-color:red;
+    }
+}
+
+
+.rotated-image {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+}
+
+.keep-button {
+    background-color: transparent;
+}
+
+.keep-button:hover {
+    background-color: #f2d80e;
+    color: black;
+}
+
+.home-container {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.home-container-heading {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,139 @@
+/* Container */
+.notes-container {
+    max-width: 100%;
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+   }
+  
+  .notes-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .notes-input-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .input-container{
+    border: none;
+    text-align: left;
+    box-shadow: 3px 6px 8px rgba(15, 15, 15, 0.5);    
+  }
+  
+  .notes-input {
+    font-size: 16px;
+    width: 88%;
+    border: none;
+  }
+  .notes-input::placeholder{
+    font-weight: 500 !important;
+    color: rgb(0, 0, 0) !important;
+  }
+  .notes-input2 {
+    font-size: 16px;
+    width: 88%;
+    border: none;
+    
+  }
+  .notes-input2::placeholder{
+    color: rgb(110, 104, 104) !important;
+  }
+  
+  
+  
+  
+  .notes-list {
+    margin-top: 20px;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .notes-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  .modal-props{  
+    overflow: auto;
+    max-height: 600px;
+
+  }
+  .switch-changes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .search-container{
+    display : flex;
+  }
+  .search-margin{
+    margin-right: 15px;
+  }
+  
+  .enrich-text{
+    display: flex;
+  }
+  .enrich-para-text{
+    margin-right: 8px;
+  }
+  .notes-card.favorite::before {
+    content: "❤️ Favorite";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #0EF280;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 5px;
+    overflow: auto;
+    min-height: 40px;
+    max-height: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .notes-empty-state {
+    text-align: center;
+    color: #aaa;
+    font-size: 16px;
+    margin-top: 20px;
+    font-style: italic;
+  }
+.input-group {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    
+  }
+   
+  .notes-input-card {
+    background-color:white;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .pagination-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+  }
+  

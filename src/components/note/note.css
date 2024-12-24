@@ -1,0 +1,33 @@
+.ck-editor__editable {
+    min-height: 300px;
+    overflow: auto;
+    max-height: 330px;
+  }
+
+.note-new-card{
+   height: 60px;
+   margin: auto;
+}
+.div-new-card{
+  height: 60px;
+}
+.card-containers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid 0.01px rgb(241, 232, 232);
+  border-radius: 7px;
+  width: 440px;
+  height: 70px;
+}
+.card-containers:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.item-title:hover{
+   cursor: pointer;
+}
+
+
